@@ -68,7 +68,7 @@ Every implementation is developed step by step, with an emphasis on understandin
 ## Repository Structure
 
 ```text
-Verilog-Implementation-Journey/
+Verilog-Implementation/
 |
 |-- 01_Digital_Logic/
 |-- 02_Combinational_Circuits/
