@@ -11,10 +11,13 @@ module tb_xor_gate;
         .y(y)
     );
 
-    integer passed_tests = 0;
-    integer failed_tests = 0;
+    integer passed_tests;
+    integer failed_tests;
 
 initial begin
+
+        passed_tests = 0;
+        failed_tests = 0;
         // Test case 1: a = 0, b = 0
         #10;
         a = 1'b0; b = 1'b0;
